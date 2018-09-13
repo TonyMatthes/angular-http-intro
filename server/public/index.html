@@ -9,7 +9,8 @@
     <script src="vendors/angular.min.js"></script>
     <script src="client.js"></script>
 </head>
-<body>
+<body ng-app="ShellApp" ng-controller="ShellController as vm">
     <h1>Angular HTTP</h1>
+    <h2>{{vm.number}}</h2>
 </body>
 </html>
